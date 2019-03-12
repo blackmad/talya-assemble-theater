@@ -1,0 +1,74 @@
+
+body, html, #ui-overlay  {
+  color: #0051BA;
+  background-color: #FFDA1A;
+}
+
+
+#ui-bar {
+  display: none
+}
+
+
+
+#story {
+  margin: 0px !important;
+  margin-left: 0px !important;
+  max-width: none !important;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+}
+
+@media only screen and (max-width: 600px) {
+  /* mobile */
+  #passages {
+    font-size: 200%;
+    min-height: 83vh;
+
+    margin: 2.5vh;
+    padding: 2.5vh;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  /* desktop */
+  #passages {
+    font-size: 2em;
+    padding: 3em;
+    margin: 3em;
+
+  }
+}
+
+#passages {
+  /* max-width: none !important; */
+
+  border-width:20px;
+  border-style:solid;
+  border-color:#0051BA;
+}
+
+.debugInfo {
+  position: absolute;
+  top: 300vh;
+  max-width: 80vw;
+  font-size: 0.8em;
+  display:none;
+}
+
+.trans-instructions {
+  font-style: italic;
+}
+
+.trans-instructions:after {
+    content:"\000A";
+    white-space: pre;
+}
+
+div.passage {
+  margin: 10px;
+}
+
+#debugPageLink {
+  display: block !important;
+}
